@@ -1,0 +1,35 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+:root {
+	--primary: hsl(24, 56%, 63%);
+	--black: hsl(0, 0%, 8%);
+	--gray: hsl(0, 0%, 27%);
+	--white: hsl(0, 0%, 100%);
+
+	--headingFont: 'Big Shoulders Display', cursive;
+	--primaryFont: 'Outfit', sans-serif;
+}
+
+body {
+	font-family: var(--primaryFont);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--headingFont);
+  text-transform: uppercase;
+}
